@@ -10,6 +10,13 @@ UmengUpload::~UmengUpload()
 {
 }
 
+void UmengUpload::setLevel(string lv)
+{
+#if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)
+	umeng::MobClickCpp::setUserLevel(lv.c_str());
+#endif
+}
+
 void UmengUpload::pay(double cash, int source, double coin)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_ANDROID)

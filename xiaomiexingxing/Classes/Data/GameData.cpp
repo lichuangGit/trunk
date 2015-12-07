@@ -303,6 +303,10 @@ void GameData::setPlayerLv(int lv)
 	SaveIntegerToXML("rfdplfdacygehrljfreveoknjlt", lv);
 	m_iCurLv = lv;
 	m_iCurNeedExperience = (m_iCurLv + 1) * 10000;
+	UmengUpload::setLevel(String::createWithFormat("level_%d", lv)->getCString());
+	map<string, string> _map;
+	_map["playTime"] = getGameDurationGPD();
+	UmengUpload::event(Umeng_Id_Upgrade, &_map);
 }
 
 int GameData::getPlayerLv()

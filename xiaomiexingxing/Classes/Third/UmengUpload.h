@@ -25,6 +25,7 @@ using namespace std;
 #define Umeng_Id_Paycancel		"payCancel"		//支付取消
 #define Umeng_Id_Paysuccess		"paySuccess"	//支付成功
 #define Umeng_Id_Payfailed		"payFailed"		//支付失败
+#define Umeng_Id_Upgrade		"gameUpgrade"	//升级
 
 class UmengUpload
 {
@@ -39,7 +40,7 @@ public:
 	*作者: lichuang
 	*日期:2015-11-24-10:38                                                                   
 	*/
-	//void setLevel(string lv);
+	static void setLevel(string lv);
 
 	/*
 	*功能:	购买统计
