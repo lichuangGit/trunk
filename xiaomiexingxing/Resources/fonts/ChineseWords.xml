@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+  <dict>
+	<key>guanqia</key>
+	<string>关卡</string>
+    
+  <key>mubiao</key>
+  <string>目标</string>
+  
+  <key>fen</key>
+  <string>分</string>
+  
+  <key>highestScore</key>
+  <string>历史最高分</string>
+  
+  <key>lianji</key>
+  <string>连击</string>
+  
+  <key>shengyu</key>
+  <string>剩余</string>
+  
+  <key>ge</key>
+  <string>个</string>
+  
+  <key>jiangli</key>
+  <string>奖励</string>
+  
+  <key>success</key>
+  <string>恭喜你领取奖励成功！</string>
+  
+  <key>failed</key>
+  <string>不好意思，领取失败！</string>
+  
+  <key>stop</key>
+  <string>领取取消！</string>
+  
+    <key>paysuccess</key>
+  <string>恭喜你购买成功！</string>
+  
+  <key>payfailed</key>
+  <string>不好意思，购买失败！</string>
+  
+  <key>paystop</key>
+  <string>购买取消！</string>
+  
+  <key>userid</key>
+  <string>(用户 ID：</string>
+  
+  <key>star</key>
+  <string> 钻石：</string>
+  
+  <key>one</key>
+  <string>皮卡丘</string>
+  
+  <key>two</key>
+  <string>大白</string>
+  
+  <key>three</key>
+  <string>萝卜丝</string>
+  
+  <key>four</key>
+  <string>Pangpang</string>
+  
+  <key>five</key>
+  <string>巧克力</string>
+  
+  <key>six</key>
+  <string>小萝莉</string>
+  
+  <key>seven</key>
+  <string>Another</string>
+  
+  <key>eight</key>
+  <string>葫芦娃</string>
+  
+  <key>nine</key>
+  <string>第一的消</string>
+  
+  <key>ten</key>
+  <string>我</string>
+  
+  <key>lingqu</key>
+  <string>已领取</string>
+</dict>
+
+</array>
+</plist>
